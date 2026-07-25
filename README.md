@@ -22,12 +22,6 @@ Real-time financial news sentiment analysis using FinBERT. Search any stock tick
 - **ML Framework**: [PyTorch](https://pytorch.org/)
 - **Web UI**: [Streamlit](https://streamlit.io/)
 
-## Installation
-
-### Requirements
-- Python 3.8+
-- ~2GB disk space (for the FinBERT model on first run)
-
 ### Setup
 
 1. **Clone the repo**
@@ -47,7 +41,7 @@ Real-time financial news sentiment analysis using FinBERT. Search any stock tick
    pip install -r requirements.txt
    ```
    
-   On first run, the FinBERT model (~400MB) will be downloaded from Hugging Face and cached locally (usually `~/.cache/huggingface`). This is automatic—just wait for it.
+   On first run, the FinBERT model will be downloaded from Hugging Face and cached locally
 
 ## Usage
 
